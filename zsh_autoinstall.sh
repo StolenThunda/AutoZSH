@@ -8,7 +8,7 @@
 # - etc
 #
 # Installing from command line:
-# sh -c "$(curl -fsSL https://gist.githubusercontent.com/StolenThunda/49f0e817418510563e2391e10c422dc0/raw/089b77f8f52038065d5560030c01b70d00cfc4fc/zsh_autoinstall.sh)"
+# sh -c "$(curl -fsSL https://raw.githubusercontent.com/StolenThunda/AutoZSH/master/zsh_autoinstall.sh)"
  
 echo "Installing ZSH..."
 apt install -y zsh
