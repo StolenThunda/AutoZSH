@@ -25,7 +25,8 @@ git clone https://github.com/romkatv/powerlevel10k.git $ZSH_CUSTOM/themes/powerl
 echo
 echo
 echo "Installing Nerd Fonts..."
-git clone https://github.com/ryanoasis/nerd-fonts && ./nerd-fonts/install.sh
+# git clone https://github.com/ryanoasis/nerd-fonts && ./nerd-fonts/install.sh  ## download all fonts
+git clone https://github.com/ryanoasis/nerd-fonts/tree/master/patched-fonts/FiraMono && ./nerd-fonts/install.sh FiraMono
  
 echo
 echo
