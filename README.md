@@ -1,5 +1,9 @@
 # AutoZSH 0.0.1 (beta)
 Automate my custom ZSH install
+ 
+# Quickstart
+# Installing from command line:
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/StolenThunda/AutoZSH/master/zsh_autoinstall.sh)"
 
 ## *Installs*
 - ZSH
