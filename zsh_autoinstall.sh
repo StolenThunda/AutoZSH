@@ -36,7 +36,7 @@ git clone https://github.com/zsh-users/zsh-syntax-highlighting.git $ZSH_CUSTOM/p
  
 echo
 echo
-DEF_THEME=` grep ZSH_THEME -m1 .zshrc`
+DEF_THEME=` grep ZSH_THEME -m1 ~/.zshrc`
 NEW_THEME='ZSH_THEME="powerlevel10k/powerlevel10k"'
 echo "Changing theme from default $DEF_THEME to PowerLine10k..."
 sed -i "s|${DEF_THEME}|${NEW_THEME}|g" ~/.zshrc
