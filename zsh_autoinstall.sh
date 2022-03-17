@@ -55,6 +55,9 @@ DEF_PLUGINS="plugins=(git)"
 NEW_PLUGINS="plugins=(git zsh-autosuggestions zsh-syntax-highlighting)"
 sed -i "s|${DEF_PLUGINS}|${NEW_PLUGINS}|g" ~/.zshrc
  
+ 
+echo "Apply..."
+source ~/.zshrc
 echo
 echo
 echo "Configure your new shell..."
