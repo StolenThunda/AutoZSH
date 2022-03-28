@@ -27,7 +27,7 @@ echo
 echo "Installing Nerd Fonts..."
 # git clone https://github.com/ryanoasis/nerd-fonts && ./nerd-fonts/install.sh  ## download all fonts
 # git clone https://github.com/ryanoasis/nerd-fonts/tree/master/patched-fonts/FiraMono/Regular/complete && ./nerd-fonts/install.sh FiraMono &
-apt install Firacode
+apt install fonts-firacode
  
 echo
 echo
