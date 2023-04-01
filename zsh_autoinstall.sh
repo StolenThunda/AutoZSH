@@ -11,16 +11,16 @@
 # sh -c "$(curl -fsSL https://raw.githubusercontent.com/StolenThunda/AutoZSH/master/zsh_autoinstall.sh)"
  
 echo "Installing ZSH..."
-apt install -y zsh &&
+apt install -y zsh 
 echo
 echo
 echo "Installing Oh-My-Zsh..."
-sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)" &&
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)" 
  
 echo
 echo
 echo "Install PowerLevel10K theme..."
-git clone https://github.com/romkatv/powerlevel10k.git $ZSH_CUSTOM/themes/powerlevel10k &&
+git clone https://github.com/romkatv/powerlevel10k.git $ZSH_CUSTOM/themes/powerlevel10k 
  
 echo
 echo
@@ -32,8 +32,8 @@ apt install fonts-firacode
 echo
 echo
 echo "Download Plugins for autosuggestion and syntax highlighting..."
-git clone https://github.com/zsh-users/zsh-autosuggestions.git $ZSH_CUSTOM/plugins/zsh-autosuggestions &&
-git clone https://github.com/zsh-users/zsh-syntax-highlighting.git $ZSH_CUSTOM/plugins/zsh-syntax-highlighting &&
+git clone https://github.com/zsh-users/zsh-autosuggestions.git $ZSH_CUSTOM/plugins/zsh-autosuggestions 
+git clone https://github.com/zsh-users/zsh-syntax-highlighting.git $ZSH_CUSTOM/plugins/zsh-syntax-highlighting 
  
 echo
 echo
